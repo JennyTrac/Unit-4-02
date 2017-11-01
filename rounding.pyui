@@ -1,0 +1,125 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter a decimal number to be rounded:",
+          "font_name" : "<System>",
+          "name" : "instruction1_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "4275ACB7-5E45-4770-9463-30583BCE95A3"
+        },
+        "frame" : "{{13, 17}, {515, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "number_input_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "B9C79872-4004-486A-8F81-843FE058BE16"
+        },
+        "frame" : "{{13, 57}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter number of decimal places to round to:",
+          "font_name" : "<System>",
+          "name" : "instruction2_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "BE16BC3C-5B50-427D-B860-5EC0482CA774"
+        },
+        "frame" : "{{13, 97}, {515, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "decimal_input_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "FCF597C1-7BFA-437D-BDF2-740EB85E42BE"
+        },
+        "frame" : "{{13, 137}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Round",
+          "name" : "round_button",
+          "action" : "round_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "93808E10-B5C8-4B0C-B8A5-FF92696EE8C5"
+        },
+        "frame" : "{{231, 177}, {79, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "answer_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "1667B62C-B92B-4DF1-91AF-C6AF346FB5AB"
+        },
+        "frame" : "{{13, 217}, {515, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
